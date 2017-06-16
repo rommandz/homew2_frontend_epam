@@ -1,0 +1,22 @@
+p {
+    font-size: 150px;
+    font-family: 'source-sans-pro-regular',sans-serif,helvetica,arial;
+    font-stretch: ultra-condensed;
+    letter-spacing: -5px;
+    color: rgb(70, 69, 71);
+    margin: 0;
+
+}
+
+p::before {
+    content: "<";
+    font-size: 0.75em;
+    color: rgb(57, 194, 215);
+}
+
+p::after {
+    content: ">";
+    font-size: 0.75em;
+    color: rgb(57, 194, 215);
+
+}
